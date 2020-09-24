@@ -35,7 +35,7 @@ def Mr_Pickles(audio_string):
     print(audio_string)
     os.remove(audio_file)
 
-def repond(voice_data):
+def respond(voice_data):
     if 'what is your name?' in voice_data:
         Mr_Pickles('My name is Mr Pickles')
     if 'what time is it?' in voice_data:
